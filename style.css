@@ -1,0 +1,140 @@
+/* ÜST KISIM */
+
+#top{
+    height: auto;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+#top #logo{
+    border-style: none;
+    border-radius: 0;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#top #social-icon{
+    border-style: none;
+    border-radius: 0;
+}
+
+
+
+
+#top #social-icon .social-icon-item{
+   display: inline-block;
+   float: right;
+   margin-left: 5px;
+}
+   
+
+    /* ORTA KISIM */
+
+#mid{
+    height: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-radius: 0;
+    padding-top: 50px;
+    padding-left: 40px;
+}
+
+#mid #container{
+    height: auto;
+    border-style: none;
+}
+
+#mid #container .box-common{
+    display: inline-block;
+    height: 250px;
+    width: 225px;
+    margin: 20px;   
+    margin: 2px;
+    margin-bottom: 4px;
+    padding-bottom: 50px;
+}
+
+#mid #container .box-common img{
+    display: inline-block;
+    position: relative;
+    left: 20px;
+    top: 10px;
+    background-color: rgb(103, 137, 166);
+    opacity: 0.8;
+    border-radius: 2px;
+    box-shadow: rgba(5, 252, 174, 0.5) 0px 30px 60px -12px inset, rgba(4, 52, 243, 1) 0px 18px 36px -18px inset;}
+
+#mid #container .box-common img:hover{
+    box-shadow: rgba(190, 13, 13, 0.3) 0px 0px 0px 3px;
+}
+
+#mid #container .box-common h2{
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+/* ALT KISIM */
+
+#bot{
+    height: auto;
+    margin-top: 0;
+    border-radius: 0;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+/* ****************************************************** DİĞER AYARLAR ****************************************************** */
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Tooltip text */
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: orangered;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    border-radius: 6px;
+  
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -100px;
+  
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  /* Tooltip arrow */
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: orangered transparent transparent transparent;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
